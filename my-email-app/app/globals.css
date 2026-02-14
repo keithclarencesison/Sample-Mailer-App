@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  --font-inter: 'Kodchasan', sans-serif;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
