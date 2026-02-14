@@ -18,7 +18,7 @@ export default function EmailForm() {
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white rounded-xl shadow-lg border border-gray-100">
-      <h2 className="text-2xl font-bold text-gray-800 mb-2">This is a Virus App ⚠️</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-2">⚠️⚠️This is a Virus App ⚠️⚠️</h2>
       <p className="text-black mb-6">Enter your email here to download a free virus!🦠☣️ </p>
       
       <form action={handleAction} className="space-y-4">
