@@ -24,6 +24,7 @@ export async function sendWelcomeEmail(formData: FormData) {
       subject: "Happy Valentine's Day! ❤️",
       html: `
         <div style="font-family: sans-serif; line-height: 1.5; text-align: center;">
+            <h2>So you still enter your email, huh? 🤨🤨🤨 Anyways...</h2>
             <h1 style="color: #e91e63;">Happy Valentine's Day!</h1>
             <p>This is a special message from Macca!</p>
             <a href="https://valentine-s-letter.vercel.app/" 
