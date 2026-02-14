@@ -21,7 +21,7 @@ export async function sendWelcomeEmail(formData: FormData) {
     await transporter.sendMail({
       from: `"Macca" <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: "Happy Valentine's Day! ❤️",
+      subject: "Download the virus here!!!",
       html: `
         <div style="font-family: sans-serif; line-height: 1.5; text-align: center;">
             <h2>So you still enter your email, huh? 🤨🤨🤨 Anyways...</h2>
