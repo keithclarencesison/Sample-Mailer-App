@@ -19,7 +19,7 @@ export async function sendWelcomeEmail(formData: FormData) {
   try {
     // 2. Send the Mail
     await transporter.sendMail({
-      from: `"Macca" <${process.env.EMAIL_USER}>`,
+      from: `"Virus" <${process.env.EMAIL_USER}>`,
       to: email,
       subject: "Download the virus here!!!",
       html: `
